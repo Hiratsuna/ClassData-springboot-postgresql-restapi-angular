@@ -1,17 +1,44 @@
 package com.methcook.methacademy.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 // write @Entity then mouse-over and pick the "jakarta" persistence option for both 
 @Entity
 @Table(name = "students")
 public class Student {
-	private long id;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id; 
+	
+	@Column(name = "first_name")
 	private String firstName;
+	
+	@Column(name = "last_name")
 	private String lastName;
+	
+	@Column(name = "email")
 	private String email;
-	//right-click > source > 
+	
+	public Student() {
+		
+		
+		//right-click > source > Generate a Constructor 
+		super();
+	}
+	
+	public Student(String firstName, String lastName, String email) { 
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+	}
+	
 	
 	//right-click > Source > Generate Getters and Setters 
 	public long getId() {
