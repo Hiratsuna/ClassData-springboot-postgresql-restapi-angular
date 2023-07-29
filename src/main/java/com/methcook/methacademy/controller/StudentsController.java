@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.methcook.methacademy.exception.ResourceNotFoundException;
 import com.methcook.methacademy.model.Student;
 import com.methcook.methacademy.repository.StudentsRepository;
 
