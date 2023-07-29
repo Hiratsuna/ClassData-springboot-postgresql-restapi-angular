@@ -1,7 +1,10 @@
 package com.methcook.methacademy.controller;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -29,7 +32,7 @@ public class StudentsController {
 	// get student
 	
 	@GetMapping("students/{id}")
-	public List<Student> getAllStudent(){
+	public List<Student> getAllStudents(){
 		return this.studentsRepository.findAll();
 	}
 
@@ -37,7 +40,7 @@ public class StudentsController {
 	// get student by id
 	
 	@GetMapping("/students/{id}")
-		public ResponseEntity<Student> getStudentById(@PathVariable(value = "id") Long studentId)
+		public ResponseEntity<Student> getStudentsById(@PathVariable(value = "id") Long studentId)
 				throws ResourceNotFoundException {
 			Student students = studentsRepository.findById(studentId)
 				.orElseThrow(() -> new ResourceNotFoundException("Student not found for this Id :: " + studentId));
@@ -46,17 +49,18 @@ public class StudentsController {
 	
 	// save student
 	@PostMapping("students")
-	public Student createStudent(@RequestBody Student student) {
+	public Student createStudents(@RequestBody Student student) {
 		return this.studentsRepository.save(student);
 	}
 	
 	// update student
 	@PutMapping("students/{id}")
-	public ResponseEntity<Student> updateStudent(@PathVariable(value = "id") Long studentId,
+	public ResponseEntity<Student> updateStudents(@PathVariable(value = "id") Long studentId,
 			@Valid @RequestBody Student studentDetails) throws ResourceNotFoundException{
 		
 		Student student = studentsRepository.findById(studentId)
 				.orElseThrow(() -> new ResourceNotFoundException("Student not found for this id ::" + studentId ));
+		
 		student.setEmail(studentDetails.getEmail());
 		student.setFirstName(studentDetails.getFirstName());
 		student.setLastName(studentDetails.getLastName());
@@ -65,9 +69,15 @@ public class StudentsController {
 	}
 	// delete student
 	@DeleteMapping("students/{id}")
-	public Map<String, Boolean> deleteStudent(@PathVariable(value = "id") Long studentId){
-	.orElseThrow(() -> new ResourceNotFoundException("Student not found for this id :: " + studentId));
+	public Map<String, Boolean> deleteStudents(@PathVariable(value = "id") Long studentId) throws ResourceNotFoundException{
+		Student student = studentsRepository.findById(studentId)
+				.orElseThrow(() -> new ResourceNotFoundException("Student not found for this id ::" + studentId ));
 		
 		this.studentsRepository.delete(student);
+		
+		Map<String, Boolean> response = new HashMap<>();
+		response.put("deleted", Boolean.TRUE);
+		
+		return response;
 	}
 }
