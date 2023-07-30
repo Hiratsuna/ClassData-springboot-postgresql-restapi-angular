@@ -7,7 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-// write @Entity then mouse-over and pick the "jakarta" persistence option for both 
+// write @Entity then mouse-over and pick the persistence option for both 
 @Entity
 @Table(name = "students")
 public class Student {

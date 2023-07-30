@@ -29,9 +29,9 @@ public class StudentsController {
 	private StudentsRepository studentsRepository;
 	
 	
-	// get student
+	// get students
 	
-	@GetMapping("students/{id}")
+	@GetMapping("students/")
 	public List<Student> getAllStudents(){
 		return this.studentsRepository.findAll();
 	}
