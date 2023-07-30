@@ -7,5 +7,7 @@ import com.methcook.methacademy.model.Student;
 // this below creates a spring component and automatically scans it 
 
 public interface StudentsRepository extends JpaRepository<Student, Long>{
+	
+	
 
 }
