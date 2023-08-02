@@ -40,3 +40,6 @@ no### methacademy-springboot-postgressql-restapi-eternalsuffering
 > If you wanna say something rude, keep in mind I have never done any of this before. 
 - Also I am a Customer Support with no deggee or education in this field. 
 > Keep it **CASUAL.**
+
+
+# 2.08.2023 ANGULAR ATTACHED AND WORKING BRANCH ADDED TO REPO ! <3 
