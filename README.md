@@ -27,10 +27,10 @@ no### methacademy-springboot-postgressql-restapi-eternalsuffering
 - Spring App Api Setup
 - Working and tested with Postman (link of the test in docs, will add later, I am editing this on phone)
 - 1/2 of Documentation
-
-### What remains to be done:
 - Angular frontend setup
 - Connection established with Java backend
+
+### What remains to be done:
 - Kubernetes helm chart 
 - Remaining docs 
 
