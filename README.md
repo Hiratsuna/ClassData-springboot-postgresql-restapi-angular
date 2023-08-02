@@ -3,14 +3,11 @@ no### methacademy-springboot-postgressql-restapi-eternalsuffering
 # Welcome to Meth Academy
 
 ## Connected Repo for Angular and Frontend. 
-- Also attempted to create the rest with VS Code at first, but could not and it has mainly only md files and some Maven project stuff with extensions.
-- I will add the MD content in this ReadMe anyway, but if you want to see what I did with vs code separately from Spring Boot Suite
-- ### It is [HERE](https://github.com/Hiratsuna/sweaty.exam)
 - Locate the Angular and Node setup in the 'sweaty.dev' folder.
-- ## [Docs](https://github.com/Hiratsuna/sweaty.exam/tree/main/docs) 
+- ## [Docs]([https://github.com/Hiratsuna/sweaty.exam/tree/main/docs](https://github.com/Hiratsuna/methacademy-springboot-postgressql-restapi-angular/tree/master/docs)) 
 ## - no idea what [this](https://github.com/Hiratsuna/methacademy.springboot_postgresql) is, lol xD
 ## - [Video Followed for Spring-Java-PostgreSQL-RestAPI Part](https://www.youtube.com/watch?v=eWbGV3LLwVQ)
-
+## - [Video Followed for Angular -> Spring](https://www.youtube.com/watch?v=fv_EkS34afE)
 # [POSTMAN REST API TESTS](https://methclass.postman.co/workspace/Team-Workspace~bf1a4036-c324-42a0-87ce-8eec1772e332/folder/28826781-1207dbdd-56a5-4684-9542-8033e1f5a8f9?ctx=documentation)
 
 ## Update from 30.07 
