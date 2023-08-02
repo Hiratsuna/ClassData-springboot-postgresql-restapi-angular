@@ -8,7 +8,8 @@ no### methacademy-springboot-postgressql-restapi-eternalsuffering
 ## - no idea what [this](https://github.com/Hiratsuna/methacademy.springboot_postgresql) is, lol xD
 ## - [Video Followed for Spring-Java-PostgreSQL-RestAPI Part](https://www.youtube.com/watch?v=eWbGV3LLwVQ)
 ## - [Video Followed for Angular -> Spring](https://www.youtube.com/watch?v=fv_EkS34afE)
-# [POSTMAN REST API TESTS](https://methclass.postman.co/workspace/Team-Workspace~bf1a4036-c324-42a0-87ce-8eec1772e332/folder/28826781-1207dbdd-56a5-4684-9542-8033e1f5a8f9?ctx=documentation)
+## - [POSTMAN REST API TESTS](https://methclass.postman.co/workspace/Team-Workspace~bf1a4036-c324-42a0-87ce-8eec1772e332/folder/28826781-1207dbdd-56a5-4684-9542-8033e1f5a8f9?ctx=documentation)
+## - [Clip from stream where I finally fix last bug and see app works <3](https://clips.twitch.tv/TalentedPuzzledSalmonPRChase-XcWRf6G7U6l5Rq9A)
 
 ## Update from 30.07 
 - Spring App (Java Server) finally ran successfully and was able to compile. 
