@@ -1,11 +1,8 @@
-no### methacademy-springboot-postgressql-restapi-eternalsuffering
 
-# Welcome to Meth Academy
 
 ## Connected Repo for Angular and Frontend. 
 - Locate the Angular and Node setup in the 'sweaty.dev' folder.
 - ## [Docs]([https://github.com/Hiratsuna/sweaty.exam/tree/main/docs](https://github.com/Hiratsuna/methacademy-springboot-postgressql-restapi-angular/tree/master/docs)) 
-## - no idea what [this](https://github.com/Hiratsuna/methacademy.springboot_postgresql) is, lol xD
 ## - [Video Followed for Spring-Java-PostgreSQL-RestAPI Part](https://www.youtube.com/watch?v=eWbGV3LLwVQ)
 ## - [Video Followed for Angular -> Spring](https://www.youtube.com/watch?v=fv_EkS34afE)
 # [POSTMAN REST API TESTS](https://methclass.postman.co/workspace/Team-Workspace~bf1a4036-c324-42a0-87ce-8eec1772e332/folder/28826781-1207dbdd-56a5-4684-9542-8033e1f5a8f9?ctx=documentation)
@@ -31,11 +28,9 @@ no### methacademy-springboot-postgressql-restapi-eternalsuffering
 ### What remains to be done:
 - Angular frontend setup
 - Connection established with Java backend
-- Kubernetes helm chart 
 - Remaining docs 
 
-> If you wanna say something rude, keep in mind I have never done any of this before. 
-- Also I am a Customer Support with no deggee or education in this field. 
+
 > Keep it **CASUAL.**
 
 
